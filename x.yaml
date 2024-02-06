@@ -2,7 +2,7 @@ swagger: '2.0'
 info:
   version: 1.0.0
   title: Echo
-  description: '<script>alert('XSS here')</script>'
+  description: '<script>alert("XSS here")</script>'
 paths:
   /:
     get:
